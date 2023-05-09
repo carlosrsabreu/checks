@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "version": "0.1",
+  "name": "Checks",
+  "description": "This extension may or may not be notable",
+  "action": {
+    "default_icon": "icons/icon.png"
+  },
+  "icons": {
+    "48": "icons/icon.png"
+  },
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  }
+}

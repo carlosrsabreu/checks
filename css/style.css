@@ -1,0 +1,119 @@
+@import url(https://db.onlinewebfonts.com/c/4104a580e6f3e91f7e6b93986bcddafa?family=Carbon+Bold);
+
+@font-face {
+  font-family: "Carbon Bold";
+  src: url("https://db.onlinewebfonts.com/t/4104a580e6f3e91f7e6b93986bcddafa.eot");
+  src: url("https://db.onlinewebfonts.com/t/4104a580e6f3e91f7e6b93986bcddafa.eot?#iefix") format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/4104a580e6f3e91f7e6b93986bcddafa.woff2") format("woff2"),
+    url("https://db.onlinewebfonts.com/t/4104a580e6f3e91f7e6b93986bcddafa.woff") format("woff"),
+    url("https://db.onlinewebfonts.com/t/4104a580e6f3e91f7e6b93986bcddafa.ttf") format("truetype"),
+    url("https://db.onlinewebfonts.com/t/4104a580e6f3e91f7e6b93986bcddafa.svg#Carbon Bold") format("svg");
+}
+
+body {
+  background-color: black;
+}
+
+table,
+td,
+th {
+  border: 1px solid rgba(34, 34, 34, 1);
+  border-collapse: collapse;
+}
+
+table {
+  padding: 16px;
+  width: 380px;
+}
+
+h1,
+h2 {
+  font-family: "Carbon Bold", serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  color: white;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-family: "Carbon Bold", serif;
+  color: white;
+  font-size: 32px;
+  font-weight: 400;
+  margin: 8px 0px;
+}
+
+h4 {
+  font-family: serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: white;
+  margin: 8px 0px;
+}
+
+p {
+  font-family: "Carbon Bold", serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 100;
+  color: rgb(142, 143, 144);
+  text-transform: uppercase;
+}
+
+a {
+  text-transform: uppercase;
+  color: white;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.padding {
+  padding: 8px;
+  background-color: #111111;
+}
+
+.content {
+  margin: 0px 8px;
+}
+
+.icon {
+  background-repeat: no-repeat;
+  width: 22px;
+  height: 22px;
+  margin-right: 8px;
+}
+
+.iconBottom {
+  display: flex;
+  width: 100%;
+  padding: 5px;
+  justify-content: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.centerItems {
+  align-items: center;
+}
+
+.baseline {
+  align-items: baseline;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
